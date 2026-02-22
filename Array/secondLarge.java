@@ -16,9 +16,11 @@ public class secondLarge {
     }
 
     public static void main(){
+        System.out.println("Enter the size of array : ");
         Scanner sc= new Scanner(System.in);
         int n= sc.nextInt();
         int[] a= new int[n];
+        System.out.println("Enter "+ n + " elements : ");
         for(int i=0 ; i<n;i++){
             a[i]= sc.nextInt();
         }
